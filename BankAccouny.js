@@ -86,7 +86,7 @@ const formatMovmentDate = function (movDate, local) {
   return new Intl.DateTimeFormat(local).format(movDate); // if i didnt add the optins will be Y / M /D without hours and mins
 };
 
-// displayMovements
+
 
 const displayMovements = function (acc, sort = false) {
   containerMovements.innerHTML = ""; // Clear existing movements that i wrote in the HTML file
